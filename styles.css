@@ -1,6 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+/* wanted custom margins */
 * {
   margin: 0;
   padding: 0;
@@ -9,30 +10,30 @@
 
 body {
   background: linear-gradient(180deg, #fad0c4 0%, #ff9a9e 100%);
-  font-family: 'Montserrat', sans-serif; 
+  font-family:'Poppins';
   min-height: 100vh;
-  color: #4a4a4a;
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .main-container {
     width: 100%;
-    max-width: 420px; 
+    max-width: 390px; 
     padding: 1rem;
     margin: 0 auto;
   }
   
   .main-container h1 {
-    font-size: 1.8rem;
+    font-size: 24px;
     font-weight: 700;
-    color: maroon; 
+    color: #550000;
     margin-bottom: 0.5rem;
   }
   
   .main-container p em {
-    font-size: 0.95rem;
-    color: #8B4513;;
+    font-size: 14px;
+    color: #8F4F40;
     line-height: 1.4;
   }
   #posts-container {
@@ -59,6 +60,7 @@ body {
     margin-bottom: 0.5rem;
   }
   
+  
   /* User + Date Info */
   .user-info {
     display: flex;
@@ -68,12 +70,12 @@ body {
   .user-info h3 {
     margin: 0;
     font-size: 0.95rem;
-    font-weight: 700;
-    color: maroon;
+    font-weight:bolder;
+    color: #550000;
   }
   .post-date {
-    font-size: 0.8rem;
-    color: #8B4513;;
+    font-size: 11px;
+    color: #8F4F40;
     font-style: italic;
     margin-top: 2px;
   }

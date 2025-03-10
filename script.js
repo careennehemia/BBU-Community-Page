@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
               userImg.src = `photos/${user.profile_photo}`;
               userImg.alt = user.username;
   
-              // Create a container for user info
+              // Creates a container for user info
               const userInfoEl = document.createElement("div");
               userInfoEl.classList.add("user-info");
   
